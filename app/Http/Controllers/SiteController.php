@@ -89,7 +89,7 @@ class SiteController extends Controller
         
         return view('task_crud.index', compact('totalTasks', 'completedTasks', 'inProgressTasks', 'tasks'));
     }
-
+ 
     /**
      * Show the form for editing the specified resource.
      */
